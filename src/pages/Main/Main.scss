@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  position: relative;
+  border-color: gray;
+}
+
+.TopMenu {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  height: 150px;
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+  .logoImg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+    margin: 5px;
+  }
+
+  .instalogo {
+    margin-left: 80px;
+    margin-top: 5px;
+    float: left;
+    height: 40px;
+    border-right: 1px solid black;
+  }
+
+  .search {
+    text-align: center;
+    border-radius: 5px;
+    border-width: 2px;
+    margin-top: 50px;
+    vertical-align: top;
+    height: 50px;
+    font-size: 40px;
+  }
+}
+
+.RightMenu {
+  margin: 5px;
+
+  .Circinus,
+  .heart,
+  .person {
+    height: 30px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 40px;
+  }
+}
+
+.info {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  width: 50%;
+  height: 90px;
+  margin-top: 50px;
+  margin-left: 420px;
+  margin-bottom: 0px;
+
+  .food {
+    height: 55px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    margin: 15px;
+  }
+}
+
+.feeds {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  width: 50%;
+  height: 650px;
+  margin-top: 0px;
+  margin-left: 420px;
+  margin-bottom: 0px;
+
+  .street {
+    width: 640px;
+    height: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+}
+
+.likefeeds {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  width: 50%;
+  margin-left: 420px;
+  height: 70px;
+  text-align: left;
+
+  .like,
+  .reply,
+  .message {
+    height: 40px;
+    margin: 5px;
+    margin-top: 10px;
+  }
+}
+
+.replyfeeds {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  width: 50%;
+  height: 150px;
+  margin-left: 420px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+
+  .imagefeeds {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    margin-top: 5px;
+  }
+  .dog {
+    height: 35px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    margin: 5px;
+  }
+}
+
+.replywrite {
+  margin-left: -360px;
+  height: 30px;
+  margin-top: 30px;
+}
+
+.replyBtn {
+  height: 30px;
+  width: 50px;
+  border: none;
+  background-color: white;
+  color: blue;
+  cursor: pointer;
+  font-size: 5px;
+  margin-top: 0px;
+}
+
+body {
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+  position: top;
+}
